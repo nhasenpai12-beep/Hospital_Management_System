@@ -1,0 +1,46 @@
+[
+  {
+    "id":             "D001",
+    "name":           "Dr. Sok Sovanna",
+    "specialization": "Pediatrician",
+    "department":     "Pediatrics",
+    "email":          "sok.sovanna@hospital.com",
+    "phoneNumber":    "023-123-001",
+    "hireDate":       "2018-03-15",
+    "salary":         140000,
+    "certifications": []
+  },
+  {
+    "id":             "D002",
+    "name":           "Dr. Chan Sopheak",
+    "specialization": "Cardiologist",
+    "department":     "Cardiology",
+    "email":          "chan.sopheak@hospital.com",
+    "phoneNumber":    "023-123-002",
+    "hireDate":       "2012-09-22",
+    "salary":         180000,
+    "certifications": []
+  },
+  {
+    "id":             "D003",
+    "name":           "Dr. Ly Mekara",
+    "specialization": "Orthopedic Surgeon",
+    "department":     "Orthopedics",
+    "email":          "ly.mekara@hospital.com",
+    "phoneNumber":    "023-123-003",
+    "hireDate":       "2015-06-10",
+    "salary":         170000,
+    "certifications": []
+  },
+  {
+    "id":             "D004",
+    "name":           "Dr. Phy Vichitra",
+    "specialization": "Internal Medicine Specialist",
+    "department":     "Internal Medicine",
+    "email":          "phy.vichitra@hospital.com",
+    "phoneNumber":    "023-123-004",
+    "hireDate":       "2010-01-20",
+    "salary":         160000,
+    "certifications": []
+  }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "billId": "BILL1762864718447",
+        "patientId": "P718421",
+        "patientName": "Nha",
+        "items": [
+            {
+                "description": "Medical Consultation - Pediatrician (Emergency)",
+                "cost": 175.0,
+                "serviceDate": "2025-11-11T19:38:38.447077",
+                "serviceType": "consultation"
+            }
+        ],
+        "totalAmount": 175.0,
+        "insuranceCoverage": 0.0,
+        "patientResponsibility": 175.0,
+        "status": "BillStatus.paid",
+        "issueDate": "2025-11-11T19:38:38.447178",
+        "dueDate": "2025-12-11T19:38:38.447178",
+        "insurance": null
+    }
+]

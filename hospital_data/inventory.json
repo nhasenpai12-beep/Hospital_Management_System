@@ -1,0 +1,99 @@
+[
+    {
+        "itemId": "MED001",
+        "name": "Paracetamol 500mg",
+        "category": "medication",
+        "quantity": 50,
+        "minStockLevel": 10,
+        "unitPrice": 0.15,
+        "expiryDate": "2026-12-31T00:00:00.000Z",
+        "supplier": "Pharma Inc."
+    },
+    {
+        "itemId": "MED002",
+        "name": "Amoxicillin 500mg",
+        "category": "medication",
+        "quantity": 30,
+        "minStockLevel": 8,
+        "unitPrice": 0.50,
+        "expiryDate": "2026-06-30T00:00:00.000Z",
+        "supplier": "MedSupply Co."
+    },
+    {
+        "itemId": "MED003",
+        "name": "Ibuprofen 400mg",
+        "category": "medication",
+        "quantity": 45,
+        "minStockLevel": 12,
+        "unitPrice": 0.20,
+        "expiryDate": "2026-09-15T00:00:00.000Z",
+        "supplier": "Pharma Inc."
+    },
+    {
+        "itemId": "MED004",
+        "name": "Aspirin 100mg",
+        "category": "medication",
+        "quantity": 60,
+        "minStockLevel": 15,
+        "unitPrice": 0.10,
+        "expiryDate": "2026-11-20T00:00:00.000Z",
+        "supplier": "Pharma Inc."
+    },
+    {
+        "itemId": "MED005",
+        "name": "Ciprofloxacin 500mg",
+        "category": "medication",
+        "quantity": 25,
+        "minStockLevel": 5,
+        "unitPrice": 0.75,
+        "expiryDate": "2026-08-10T00:00:00.000Z",
+        "supplier": "MedSupply Co."
+    },
+    {
+        "itemId": "MED006",
+        "name": "Omeprazole 20mg",
+        "category": "medication",
+        "quantity": 35,
+        "minStockLevel": 10,
+        "unitPrice": 0.40,
+        "expiryDate": "2026-10-25T00:00:00.000Z",
+        "supplier": "Pharma Inc."
+    },
+    {
+        "itemId": "SUP001",
+        "name": "Sterile Gauze Bandages",
+        "category": "supplies",
+        "quantity": 75,
+        "minStockLevel": 20,
+        "unitPrice": 0.50,
+        "supplier": "MedSupply Co."
+    },
+    {
+        "itemId": "SUP002",
+        "name": "Disposable Syringes",
+        "category": "supplies",
+        "quantity": 150,
+        "minStockLevel": 30,
+        "unitPrice": 0.10,
+        "supplier": "MedSupply Co."
+    },
+    {
+        "itemId": "SUP003",
+        "name": "Surgical Gloves",
+        "category": "supplies",
+        "quantity": 40,
+        "minStockLevel": 15,
+        "unitPrice": 0.12,
+        "supplier": "SafetyFirst Medical"
+    },
+    {
+        "itemId": "SUP004",
+        "name": "IV Solution (Normal Saline 1L)",
+        "category": "supplies",
+        "quantity": 20,
+        "minStockLevel": 10,
+        "unitPrice": 5.00,
+        "expiryDate": "2026-07-30T00:00:00.000Z",
+        "supplier": "MedSupply Co."
+    }
+]

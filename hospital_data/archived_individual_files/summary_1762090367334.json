@@ -1,0 +1,1 @@
+{"total_patients":3,"total_assignments":3,"triage_breakdown":{"TriageLevel.red":1,"TriageLevel.yellow":2},"specialization_distribution":{"Cardiologist":2,"Internal Medicine Specialist":1},"room_occupancy":{"RoomType.emergency":1,"RoomType.examination":2},"blood_type_distribution":{"B+":1,"AB-":1,"O+":1},"generated_at":"2025-11-02T20:32:47.334208"}

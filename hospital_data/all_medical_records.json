@@ -1,0 +1,622 @@
+[
+    {
+        "recordId": "MR_P001",
+        "patientId": "P001",
+        "patientName": "Maria Garcia",
+        "entries": [
+            {
+                "date": "2025-11-02T20:36:08.418962",
+                "diagnosis": "Angina - requires cardiac evaluation",
+                "symptoms": "chest pain, shortness of breath",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D002",
+                "doctor_name": "Dr. Michael Brown",
+                "notes": "Initial admission - automated triage",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T20:36:08.425688"
+    },
+    {
+        "recordId": "MR_P002",
+        "patientId": "P002",
+        "patientName": "James Wilson",
+        "entries": [
+            {
+                "date": "2025-11-02T20:36:08.435816",
+                "diagnosis": "Possible fracture - X-ray needed",
+                "symptoms": "right arm pain, swelling after fall",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D002",
+                "doctor_name": "Dr. Michael Brown",
+                "notes": "Initial admission - automated triage",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T20:36:08.438900"
+    },
+    {
+        "recordId": "MR_P003",
+        "patientId": "P003",
+        "patientName": "Emma Thompson",
+        "entries": [
+            {
+                "date": "2025-11-02T20:36:08.474440",
+                "diagnosis": "Upper respiratory infection",
+                "symptoms": "fever 102°F, persistent cough",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Robert Williams",
+                "notes": "Initial admission - automated triage",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T20:36:08.475761"
+    },
+    {
+        "recordId": "MR_P004",
+        "patientId": "P004",
+        "patientName": "Robert Chen",
+        "entries": [
+            {
+                "date": "2025-11-02T15:57:08.534360",
+                "diagnosis": "possible neurological condition",
+                "symptoms": "persistent headache, dizziness, numbness",
+                "treatment": "To be determined by Dr. Robert Williams",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Robert Williams",
+                "notes": "Automatically assigned based on symptoms",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T15:57:08.534654"
+    },
+    {
+        "recordId": "MR_P005",
+        "patientId": "P005",
+        "patientName": "Jennifer Martinez",
+        "entries": [
+            {
+                "date": "2025-11-02T15:57:08.544263",
+                "diagnosis": "common cold",
+                "symptoms": "mild cough, runny nose",
+                "treatment": "To be determined by Dr. Robert Williams",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Robert Williams",
+                "notes": "Automatically assigned based on symptoms",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T15:57:08.544628"
+    },
+    {
+        "recordId": "MR_P006",
+        "patientId": "P006",
+        "patientName": "Ahmed Hassan",
+        "entries": [
+            {
+                "date": "2025-11-02T15:57:08.555099",
+                "diagnosis": "gastroenteritis",
+                "symptoms": "abdominal pain, nausea",
+                "treatment": "To be determined by Dr. Michael Brown",
+                "doctor_id": "D002",
+                "doctor_name": "Dr. Michael Brown",
+                "notes": "Automatically assigned based on symptoms",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T15:57:08.555935"
+    },
+    {
+        "recordId": "MR_P321813",
+        "patientId": "P321813",
+        "patientName": "Emily Rodriguez",
+        "entries": [
+            {
+                "date": "2025-11-02T22:12:01.827895",
+                "diagnosis": "Possible migraine or infection",
+                "symptoms": "Severe headache, nausea, fever",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Robert Williams",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T22:12:01.829106"
+    },
+    {
+        "recordId": "MR_P523701",
+        "patientId": "P523701",
+        "patientName": "Pranha",
+        "entries": [
+            {
+                "date": "2025-11-02T20:52:03.756812",
+                "diagnosis": "check for any bad symptoms",
+                "symptoms": "Headache, high fever",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Robert Williams",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T20:52:03.764107"
+    },
+    {
+        "recordId": "MR_P589813",
+        "patientId": "P589813",
+        "patientName": "Emily Rodriguez",
+        "entries": [
+            {
+                "date": "2025-11-02T22:49:49.834629",
+                "diagnosis": "Possible migraine or infection",
+                "symptoms": "Severe headache, nausea, fever",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Robert Williams",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T22:49:49.835808"
+    },
+    {
+        "recordId": "MR_P693225",
+        "patientId": "P693225",
+        "patientName": "John Williams",
+        "entries": [
+            {
+                "date": "2025-11-02T21:44:53.250994",
+                "diagnosis": "Possible cardiac issue",
+                "symptoms": "Chest pain, shortness of breath, dizziness",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D002",
+                "doctor_name": "Dr. Michael Brown",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T21:44:53.253533"
+    },
+    {
+        "recordId": "MR_P710041",
+        "patientId": "P710041",
+        "patientName": "Emily Rodriguez",
+        "entries": [
+            {
+                "date": "2025-11-02T22:51:50.051555",
+                "diagnosis": "Possible migraine or infection",
+                "symptoms": "Severe headache, nausea, fever",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Robert Williams",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T22:51:50.052580"
+    },
+    {
+        "recordId": "MR_P782680",
+        "patientId": "P782680",
+        "patientName": "Emily Rodriguez",
+        "entries": [
+            {
+                "date": "2025-11-02T21:46:22.700827",
+                "diagnosis": "Possible migraine or infection",
+                "symptoms": "Severe headache, nausea, fever",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Robert Williams",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T21:46:22.702613"
+    },
+    {
+        "recordId": "MR_P799126",
+        "patientId": "P799126",
+        "patientName": "Emily Rodriguez",
+        "entries": [
+            {
+                "date": "2025-11-02T21:46:39.140938",
+                "diagnosis": "Possible migraine or infection",
+                "symptoms": "Severe headache, nausea, fever",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Robert Williams",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T21:46:39.142473"
+    },
+    {
+        "recordId": "MR_P891927",
+        "patientId": "P891927",
+        "patientName": "Emily Rodriguez",
+        "entries": [
+            {
+                "date": "2025-11-02T22:04:51.950808",
+                "diagnosis": "Possible migraine or infection",
+                "symptoms": "Severe headache, nausea, fever",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Robert Williams",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T22:04:51.954406"
+    },
+    {
+        "recordId": "MR_P899229",
+        "patientId": "P899229",
+        "patientName": "Pranha",
+        "entries": [
+            {
+                "date": "2025-11-02T21:48:19.260670",
+                "diagnosis": "Need weekly checkup",
+                "symptoms": "Headache, heart broken",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D002",
+                "doctor_name": "Dr. Michael Brown",
+                "notes": "Patient checked in at reception\nDischarged: Good to go",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T21:49:36.631727"
+    },
+    {
+        "recordId": "MR_P921964",
+        "patientId": "P921964",
+        "patientName": "Emily Rodriguez",
+        "entries": [
+            {
+                "date": "2025-11-02T22:05:21.996911",
+                "diagnosis": "Possible migraine or infection",
+                "symptoms": "Severe headache, nausea, fever",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Robert Williams",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T22:05:21.999290"
+    },
+    {
+        "recordId": "MR_P620068",
+        "patientId": "P620068",
+        "patientName": "Test Patient",
+        "entries": [
+            {
+                "date": "2025-11-02T23:07:00.108456",
+                "diagnosis": "Test diagnosis",
+                "symptoms": "Test symptoms",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Robert Williams",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-02T23:07:00.110057"
+    },
+    {
+        "recordId": "MR_P149516",
+        "patientId": "P149516",
+        "patientName": "Test Patient",
+        "entries": [
+            {
+                "date": "2025-11-05T16:32:29.536501",
+                "diagnosis": "",
+                "symptoms": "Common cold",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Phy Vichitra",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-05T16:32:29.537902"
+    },
+    {
+        "recordId": "MR_P230352",
+        "patientId": "P230352",
+        "patientName": "Rex",
+        "entries": [
+            {
+                "date": "2025-11-05T16:33:50.387239",
+                "diagnosis": "blood check up",
+                "symptoms": "Headache, stomachache",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Phy Vichitra",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-05T16:33:50.389237"
+    },
+    {
+        "recordId": "MR_P206037",
+        "patientId": "P206037",
+        "patientName": "Ivy",
+        "entries": [
+            {
+                "date": "2025-11-08T10:23:26.081406",
+                "diagnosis": "Cough, high fever",
+                "symptoms": "Stomachache",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Phy Vichitra",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-08T10:23:26.084316"
+    },
+    {
+        "recordId": "MR_P674150",
+        "patientId": "P674150",
+        "patientName": "Ann",
+        "entries": [
+            {
+                "date": "2025-11-08T10:31:14.197368",
+                "diagnosis": "Cough up blood",
+                "symptoms": "Headache",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Phy Vichitra",
+                "notes": "Patient checked in at reception\nDischarged: Good to go",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-08T10:31:40.791249"
+    },
+    {
+        "recordId": "MR_P096820",
+        "patientId": "P096820",
+        "patientName": "Ivy",
+        "entries": [
+            {
+                "date": "2025-11-08T10:54:56.843306",
+                "diagnosis": "Cancer stage 4",
+                "symptoms": "Caner",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D001",
+                "doctor_name": "Dr. Sok Sovanna",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-08T10:54:56.845150"
+    },
+    {
+        "recordId": "MR_P416374",
+        "patientId": "P416374",
+        "patientName": "Dolla",
+        "entries": [
+            {
+                "date": "2025-11-08T11:00:16.424006",
+                "diagnosis": "Pregnancy check up",
+                "symptoms": "Headache",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Phy Vichitra",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-08T11:00:16.426866"
+    },
+    {
+        "recordId": "MR_P479956",
+        "patientId": "P479956",
+        "patientName": "Na",
+        "entries": [
+            {
+                "date": "2025-11-08T11:01:19.969090",
+                "diagnosis": "Pregnancy",
+                "symptoms": "stomachache",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D001",
+                "doctor_name": "Dr. Sok Sovanna",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-08T11:01:19.969365"
+    },
+    {
+        "recordId": "MR_P038253",
+        "patientId": "P038253",
+        "patientName": "Lola",
+        "entries": [
+            {
+                "date": "2025-11-08T11:10:38.309254",
+                "diagnosis": "Pregenancy",
+                "symptoms": "Cough, vomit",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D004",
+                "doctor_name": "Dr. Phy Vichitra",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-08T11:10:38.314154"
+    },
+    {
+        "recordId": "MR_P286990",
+        "patientId": "P286990",
+        "patientName": "ivy",
+        "entries": [
+            {
+                "date": "2025-11-08T11:14:47.050985",
+                "diagnosis": "Stomachache",
+                "symptoms": "Vomit",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D001",
+                "doctor_name": "Dr. Sok Sovanna",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-08T11:14:47.055452"
+    },
+    {
+        "recordId": "MR_P231029",
+        "patientId": "P231029",
+        "patientName": "Nha",
+        "entries": [
+            {
+                "date": "2025-11-11T18:23:51.082115",
+                "diagnosis": "Bone cancer",
+                "symptoms": "back pain and headache",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D002",
+                "doctor_name": "Dr. Chan Sopheak",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-11T18:23:51.085817"
+    },
+    {
+        "recordId": "MR_P281981",
+        "patientId": "P281981",
+        "patientName": "Ivy",
+        "entries": [
+            {
+                "date": "2025-11-11T18:24:41.993232",
+                "diagnosis": "Pregnancy check up",
+                "symptoms": "back pain",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D002",
+                "doctor_name": "Dr. Chan Sopheak",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-11T18:24:41.993559"
+    },
+    {
+        "recordId": "MR_P441310",
+        "patientId": "P441310",
+        "patientName": "ii",
+        "entries": [
+            {
+                "date": "2025-11-11T19:00:41.377368",
+                "diagnosis": "Brain cancer",
+                "symptoms": "Heachache",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D001",
+                "doctor_name": "Dr. Sok Sovanna",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-11T19:00:41.380515"
+    },
+    {
+        "recordId": "MR_P703212",
+        "patientId": "P703212",
+        "patientName": "Wea",
+        "entries": [
+            {
+                "date": "2025-11-11T19:05:03.269280",
+                "diagnosis": "Pregnancy",
+                "symptoms": "Stomachache",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D001",
+                "doctor_name": "Dr. Sok Sovanna",
+                "notes": "Patient checked in at reception",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-11T19:05:03.272795"
+    },
+    {
+        "recordId": "MR_P718421",
+        "patientId": "P718421",
+        "patientName": "Nha",
+        "entries": [
+            {
+                "date": "2025-11-11T19:38:38.441824",
+                "diagnosis": "severe bleeding",
+                "symptoms": "bleeding",
+                "treatment": "Awaiting evaluation",
+                "doctor_id": "D001",
+                "doctor_name": "Dr. Sok Sovanna",
+                "notes": "Patient checked in at reception\nDischarged: Good to go",
+                "temperature": null,
+                "bloodPressureSystolic": null,
+                "bloodPressureDiastolic": null
+            }
+        ],
+        "savedAt": "2025-11-11T19:40:58.369640"
+    }
+]

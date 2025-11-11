@@ -1,0 +1,42 @@
+[
+  {
+    "roomNumber": "ER-1",
+    "type":       "emergency",
+    "capacity":   1
+  },
+  {
+    "roomNumber": "ER-2",
+    "type":       "emergency",
+    "capacity":   1
+  },
+  {
+    "roomNumber": "EXAM-1",
+    "type":       "examination",
+    "capacity":   1
+  },
+  {
+    "roomNumber": "EXAM-2",
+    "type":       "examination",
+    "capacity":   1
+  },
+  {
+    "roomNumber": "EXAM-3",
+    "type":       "examination",
+    "capacity":   1
+  },
+  {
+    "roomNumber": "WARD-101",
+    "type":       "patientRoom",
+    "capacity":   2
+  },
+  {
+    "roomNumber": "WARD-102",
+    "type":       "patientRoom",
+    "capacity":   2
+  },
+  {
+    "roomNumber": "WARD-103",
+    "type":       "patientRoom",
+    "capacity":   2
+  }
+]

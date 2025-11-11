@@ -1,0 +1,57 @@
+[
+  {
+    "id":          "N001",
+    "name":        "Kong Sophol",
+    "department":  "Emergency",
+    "shift":       "Day",
+    "email":       "kong.sophol@hospital.com",
+    "phoneNumber": "012-345-001",
+    "hireDate":    "2019-05-12",
+    "salary":      75000,
+    "patientLoad": 0
+  },
+  {
+    "id":          "N002",
+    "name":        "Mom Sokhna",
+    "department":  "Cardiology",
+    "shift":       "Day",
+    "email":       "mom.sokhna@hospital.com",
+    "phoneNumber": "012-345-002",
+    "hireDate":    "2020-02-08",
+    "salary":      72000,
+    "patientLoad": 0
+  },
+  {
+    "id":          "N003",
+    "name":        "Non Sophea",
+    "department":  "Pediatrics",
+    "shift":       "Day",
+    "email":       "non.sophea@hospital.com",
+    "phoneNumber": "012-345-003",
+    "hireDate":    "2017-11-20",
+    "salary":      78000,
+    "patientLoad": 0
+  },
+  {
+    "id":          "N004",
+    "name":        "Pen Rathana",
+    "department":  "Orthopedics",
+    "shift":       "Night",
+    "email":       "pen.rathana@hospital.com",
+    "phoneNumber": "012-345-004",
+    "hireDate":    "2021-03-15",
+    "salary":      70000,
+    "patientLoad": 0
+  },
+  {
+    "id":          "N005",
+    "name":        "Det Chanthanee",
+    "department":  "General Ward",
+    "shift":       "Day",
+    "email":       "det.chanthanee@hospital.com",
+    "phoneNumber": "012-345-005",
+    "hireDate":    "2018-08-25",
+    "salary":      74000,
+    "patientLoad": 0
+  }
+]
