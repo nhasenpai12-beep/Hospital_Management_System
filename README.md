@@ -23,7 +23,7 @@ This project implements a comprehensive hospital management system with features
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/nhasenpai12-beep/Hospital_Management_System.git
+git clone <repository-url>
 cd Hospital_Management_System
 ```
 

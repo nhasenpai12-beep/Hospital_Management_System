@@ -132,7 +132,7 @@ fi
 # Switch to the branch if requested
 if [ "$SWITCH_BRANCH" = true ]; then
     print_info "Switching to branch: $BRANCH_NAME"
-    if git switch "$BRANCH_NAME" 2>/dev/null || git checkout "$BRANCH_NAME"; then
+    if git switch "$BRANCH_NAME" 2>/dev/null || git checkout "$BRANCH_NAME" 2>/dev/null; then
         print_success "Switched to branch '$BRANCH_NAME'"
     else
         print_error "Failed to switch to branch"
