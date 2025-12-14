@@ -63,7 +63,9 @@ Hospital_Management_System/
 
 ### Branch Management
 
-We use a feature-branch workflow. See [BRANCHING_GUIDE.md](BRANCHING_GUIDE.md) for detailed instructions on creating and managing branches.
+We use a feature-branch workflow. Quick reference guides:
+- **New to branching?** Start here: [QUICK_START.md](QUICK_START.md)
+- **Need details?** See full guide: [BRANCHING_GUIDE.md](BRANCHING_GUIDE.md)
 
 Quick start for creating a new branch:
 ```bash
