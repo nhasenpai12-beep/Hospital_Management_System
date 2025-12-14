@@ -29,7 +29,7 @@ chmod +x create_branch.sh
 
 2. **Update your main branch**:
 ```bash
-git checkout main
+git switch main
 git pull origin main
 ```
 
@@ -119,7 +119,10 @@ git push
 If you prefer not to use the script:
 
 ```bash
-# Create and switch to new branch
+# Create and switch to new branch (modern way)
+git switch -c feature/my-feature
+
+# Create and switch to new branch (legacy way)
 git checkout -b feature/my-feature
 
 # Push to remote with tracking

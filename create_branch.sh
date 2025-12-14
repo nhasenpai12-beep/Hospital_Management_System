@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Branch Creation and Push Helper Script
 # This script helps you create and push new branches to the repository
@@ -89,8 +89,8 @@ if [ -z "$BRANCH_NAME" ]; then
 fi
 
 # Validate branch name
-if [[ ! "$BRANCH_NAME" =~ ^[a-zA-Z0-9/_-]+$ ]]; then
-    print_error "Invalid branch name. Use only alphanumeric characters, hyphens, underscores, and forward slashes."
+if [[ ! "$BRANCH_NAME" =~ ^[a-zA-Z0-9/_.-]+$ ]]; then
+    print_error "Invalid branch name. Use only alphanumeric characters, hyphens, underscores, periods, and forward slashes."
     exit 1
 fi
 
@@ -132,7 +132,7 @@ fi
 # Switch to the branch if requested
 if [ "$SWITCH_BRANCH" = true ]; then
     print_info "Switching to branch: $BRANCH_NAME"
-    if git checkout "$BRANCH_NAME"; then
+    if git switch "$BRANCH_NAME" 2>/dev/null || git checkout "$BRANCH_NAME"; then
         print_success "Switched to branch '$BRANCH_NAME'"
     else
         print_error "Failed to switch to branch"
@@ -155,7 +155,7 @@ print_success "Done!"
 echo ""
 print_info "What's next?"
 if [ "$SWITCH_BRANCH" = false ]; then
-    echo "  - Switch to the branch: git checkout $BRANCH_NAME"
+    echo "  - Switch to the branch: git switch $BRANCH_NAME"
 fi
 if [ "$PUSH_BRANCH" = false ]; then
     echo "  - Push to remote: git push -u origin $BRANCH_NAME"

@@ -33,11 +33,14 @@ If you prefer to create branches manually:
 # Create a new branch from current branch
 git branch feature/my-feature
 
-# Create and switch to a new branch
+# Create and switch to a new branch (modern way)
+git switch -c feature/my-feature
+
+# Create and switch to a new branch (legacy way)
 git checkout -b feature/my-feature
 
 # Create a branch from a specific branch
-git checkout -b feature/my-feature main
+git switch -c feature/my-feature main
 
 # Push the branch to remote
 git push -u origin feature/my-feature
@@ -101,7 +104,7 @@ git add .
 git commit -m "Add meaningful commit message"
 
 # Push changes to remote
-git push origin feature/my-feature
+git push
 ```
 
 ### 3. Keeping Your Branch Updated
@@ -110,11 +113,11 @@ If your branch falls behind the base branch:
 
 ```bash
 # Update your base branch
-git checkout main
+git switch main
 git pull origin main
 
 # Switch back to your branch
-git checkout feature/my-feature
+git switch feature/my-feature
 
 # Merge or rebase with main
 git merge main
@@ -122,7 +125,7 @@ git merge main
 git rebase main
 
 # Push the updated branch
-git push origin feature/my-feature
+git push
 ```
 
 ### 4. Creating a Pull Request
@@ -142,7 +145,7 @@ Clean up local and remote branches after they're merged:
 
 ```bash
 # Switch to main branch
-git checkout main
+git switch main
 
 # Delete local branch
 git branch -d feature/my-feature
@@ -172,10 +175,16 @@ git branch -v
 ### Switching Branches
 
 ```bash
-# Switch to an existing branch
+# Switch to an existing branch (modern way)
+git switch branch-name
+
+# Switch to an existing branch (legacy way)
 git checkout branch-name
 
-# Create and switch to a new branch
+# Create and switch to a new branch (modern way)
+git switch -c new-branch-name
+
+# Create and switch to a new branch (legacy way)
 git checkout -b new-branch-name
 ```
 
@@ -242,7 +251,7 @@ git commit -m "Resolve merge conflicts"
 # Move commits to a new branch
 git branch feature/correct-branch
 git reset --hard HEAD~1  # Remove commit from current branch
-git checkout feature/correct-branch
+git switch feature/correct-branch
 ```
 
 ### Lost Commits
